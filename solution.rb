@@ -4,6 +4,6 @@ get '/' do
       if params[:permiso]=="soy-un-token-secreto"
         "Si lo logramos!"
       else
-        "Sin permiso"
+        "Sin Permiso"
       end
 end
